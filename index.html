@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الرئيسية | شركة نقل عفش</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+  <!-- Top bar -->
+  <div class="bg-slate-900 text-slate-100">
+    <div class="mx-auto max-w-6xl px-4 py-2 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-sm">
+      <div class="flex flex-wrap gap-x-4 gap-y-1">
+        <span>📍 الدمام و الخبر</span>
+        <a class="hover:underline" href="tel:+201000000000">☎️ 01000000000</a>
+        <a class="hover:underline" href="mailto:info@example.com">✉️ info@example.com</a>
+      </div>
+      <div class="flex gap-3">
+        <a href="#" class="hover:underline">واتساب</a>
+        <a href="#" class="hover:underline">فيسبوك</a>
+        <a href="#" class="hover:underline">إنستجرام</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between gap-4">
+      <a href="#" class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-xl bg-blue-600 grid place-items-center text-white font-bold">N</div>
+        <div>
+          <div class="font-bold leading-5">شركة نقل عفش</div>
+          <div class="text-sm text-slate-500">خدمة محترفة • تغليف • ونش</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+        <a class="hover:text-blue-600" href="#">الرئيسية</a>
+        <a class="hover:text-blue-600" href="#services">الخدمات</a>
+        <a class="hover:text-blue-600" href="#pricing">الأسعار</a>
+        <a class="hover:text-blue-600" href="#reviews">آراء العملاء</a>
+        <a class="hover:text-blue-600" href="#faq">الأسئلة</a>
+        <a class="hover:text-blue-600" href="#contact">تواصل</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a href="#contact"
+          class="hidden sm:inline-flex rounded-xl bg-blue-600 px-4 py-2 text-white text-sm font-semibold hover:bg-blue-700">
+          اطلب معاينة / عرض سعر
+        </a>
+        <a href="tel:+201000000000"
+          class="inline-flex rounded-xl border border-slate-300 px-4 py-2 text-sm font-semibold hover:bg-slate-100">
+          اتصال سريع
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="mx-auto max-w-6xl px-4 py-8 space-y-10">
+    <!-- Welcome / Summary -->
+    <section class="bg-white border border-slate-200 rounded-2xl p-6 md:p-8">
+      <div class="flex flex-col lg:flex-row gap-8 lg:items-center">
+        <div class="flex-1">
+          <h1 class="text-2xl md:text-3xl font-extrabold leading-snug">
+            أهلاً بيك 👋 — هنا هتلاقي خدمات نقل عفش منظمة وواضحة
+          </h1>
+          <p class="mt-3 text-slate-600 leading-relaxed">
+            بننقل شقق، فيلل، مكاتب. تغليف كامل، فك وتركيب، ونش للأدوار العالية.
+            تواصل سريع، مواعيد دقيقة، وفريق محترم.
+          </p>
+
+          <div class="mt-5 flex flex-col sm:flex-row gap-3">
+            <a href="#services"
+              class="rounded-xl bg-blue-600 px-5 py-3 text-white font-semibold hover:bg-blue-700 text-center">
+              شوف الخدمات
+            </a>
+            <a href="#pricing"
+              class="rounded-xl border border-slate-300 px-5 py-3 font-semibold hover:bg-slate-100 text-center">
+              أسعار مبدئية
+            </a>
+          </div>
+
+          <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3 text-sm">
+            <div class="rounded-xl bg-slate-100 p-3">
+              <div class="font-bold">✅ ضمان</div>
+              <div class="text-slate-600">على التغليف</div>
+            </div>
+            <div class="rounded-xl bg-slate-100 p-3">
+              <div class="font-bold">⏱️ سرعة</div>
+              <div class="text-slate-600">مواعيد دقيقة</div>
+            </div>
+            <div class="rounded-xl bg-slate-100 p-3">
+              <div class="font-bold">🧰 فنيين</div>
+              <div class="text-slate-600">فك وتركيب</div>
+            </div>
+            <div class="rounded-xl bg-slate-100 p-3">
+              <div class="font-bold">🏗️ ونش</div>
+              <div class="text-slate-600">للأدوار العالية</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Simple "status" box instead of a landing hero -->
+        <aside class="w-full lg:w-[380px]">
+          <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+            <div class="flex items-center justify-between">
+              <div class="font-bold">حالة التشغيل</div>
+              <span class="inline-flex items-center gap-2 text-sm">
+                <span class="h-2 w-2 rounded-full bg-emerald-500"></span>
+                متاحين اليوم
+              </span>
+            </div>
+
+            <div class="mt-4 space-y-3 text-sm">
+              <div class="flex items-start gap-3">
+                <div class="h-9 w-9 rounded-xl bg-white border border-slate-200 grid place-items-center">📦</div>
+                <div>
+                  <div class="font-semibold">معاينة مجانية داخل المنطقة</div>
+                  <div class="text-slate-600">حسب العنوان والمسافة</div>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="h-9 w-9 rounded-xl bg-white border border-slate-200 grid place-items-center">🧾</div>
+                <div>
+                  <div class="font-semibold">عرض سعر واضح</div>
+                  <div class="text-slate-600">قبل التنفيذ بدون مفاجآت</div>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="h-9 w-9 rounded-xl bg-white border border-slate-200 grid place-items-center">🛻</div>
+                <div>
+                  <div class="font-semibold">أسطول سيارات</div>
+                  <div class="text-slate-600">جامبو / نصف نقل</div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#contact"
+              class="mt-5 inline-flex w-full justify-center rounded-xl bg-slate-900 px-4 py-3 text-white font-semibold hover:bg-slate-800">
+              احجز موعد
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="space-y-4">
+      <div class="flex items-end justify-between gap-4">
+        <h2 class="text-xl md:text-2xl font-extrabold">الخدمات</h2>
+        <a href="#contact" class="text-sm font-semibold text-blue-600 hover:underline">اطلب خدمة</a>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <article class="bg-white border border-slate-200 rounded-2xl p-5">
+          <div class="flex items-center gap-3">
+            <div class="h-11 w-11 rounded-xl bg-blue-50 grid place-items-center">🏠</div>
+            <div class="font-bold">نقل شقق</div>
+          </div>
+          <p class="mt-3 text-slate-600 text-sm leading-relaxed">
+            نقل كامل مع تنظيم التحميل والتنزيل وحماية الزوايا والأجهزة.
+          </p>
+        </article>
+
+        <article class="bg-white border border-slate-200 rounded-2xl p-5">
+          <div class="flex items-center gap-3">
+            <div class="h-11 w-11 rounded-xl bg-blue-50 grid place-items-center">🏢</div>
+            <div class="font-bold">نقل مكاتب</div>
+          </div>
+          <p class="mt-3 text-slate-600 text-sm leading-relaxed">
+            تغليف الأجهزة والمستندات وترقيم الكراتين لتسهيل التركيب.
+          </p>
+        </article>
+
+        <article class="bg-white border border-slate-200 rounded-2xl p-5">
+          <div class="flex items-center gap-3">
+            <div class="h-11 w-11 rounded-xl bg-blue-50 grid place-items-center">📦</div>
+            <div class="font-bold">تغليف احترافي</div>
+          </div>
+          <p class="mt-3 text-slate-600 text-sm leading-relaxed">
+            بلاستيك فقاعات + استرتش + كرتون + فوم حسب نوع القطعة.
+          </p>
+        </article>
+
+        <article class="bg-white border border-slate-200 rounded-2xl p-5">
+          <div class="flex items-center gap-3">
+            <div class="h-11 w-11 rounded-xl bg-blue-50 grid place-items-center">🧰</div>
+            <div class="font-bold">فك وتركيب</div>
+          </div>
+          <p class="mt-3 text-slate-600 text-sm leading-relaxed">
+            غرف نوم، مطابخ، تكييفات (حسب الاتفاق)، وستائر.
+          </p>
+        </article>
+
+        <article class="bg-white border border-slate-200 rounded-2xl p-5">
+          <div class="flex items-center gap-3">
+            <div class="h-11 w-11 rounded-xl bg-blue-50 grid place-items-center">🏗️</div>
+            <div class="font-bold">ونش رفع</div>
+          </div>
+          <p class="mt-3 text-slate-600 text-sm leading-relaxed">
+            للأدوار العالية أو السلالم الضيقة لتقليل الخدوش والكسر.
+          </p>
+        </article>
+
+        <article class="bg-white border border-slate-200 rounded-2xl p-5">
+          <div class="flex items-center gap-3">
+            <div class="h-11 w-11 rounded-xl bg-blue-50 grid place-items-center">🧹</div>
+            <div class="font-bold">تنظيف بعد النقل</div>
+          </div>
+          <p class="mt-3 text-slate-600 text-sm leading-relaxed">
+            خدمة اختيارية لتسليم المكان منظم بعد النقل.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="space-y-4">
+      <h2 class="text-xl md:text-2xl font-extrabold">أسعار مبدئية (تقديرية)</h2>
+      <div class="grid lg:grid-cols-3 gap-4">
+        <div class="bg-white border border-slate-200 rounded-2xl p-6">
+          <div class="flex items-center justify-between">
+            <div class="font-bold text-lg">استوديو / غرفة</div>
+            <span class="text-sm text-slate-500">داخل نفس المنطقة</span>
+          </div>
+          <div class="mt-4 text-3xl font-extrabold">حسب المعاينة</div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700">
+            <li>• تحميل + تنزيل</li>
+            <li>• تغليف أساسي</li>
+            <li>• تنظيم الكراتين</li>
+          </ul>
+        </div>
+
+        <div class="bg-white border border-slate-200 rounded-2xl p-6 ring-1 ring-blue-200">
+          <div class="flex items-center justify-between">
+            <div class="font-bold text-lg">شقة 2-3 غرف</div>
+            <span class="text-sm text-blue-600 font-semibold">الأكثر شيوعاً</span>
+          </div>
+          <div class="mt-4 text-3xl font-extrabold">حسب المعاينة</div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700">
+            <li>• تغليف متوسط</li>
+            <li>• فك/تركيب أساسي</li>
+            <li>• حماية الأجهزة</li>
+          </ul>
+        </div>
+
+        <div class="bg-white border border-slate-200 rounded-2xl p-6">
+          <div class="flex items-center justify-between">
+            <div class="font-bold text-lg">فيلا / مكتب كبير</div>
+            <span class="text-sm text-slate-500">حسب حجم الشغل</span>
+          </div>
+          <div class="mt-4 text-3xl font-extrabold">حسب المعاينة</div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700">
+            <li>• تغليف كامل</li>
+            <li>• ترقيم وتتبع</li>
+            <li>• ونش عند الحاجة</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="text-sm text-slate-600">
+        ملاحظة: السعر النهائي بيتحدد حسب (المسافة، عدد القطع، الدور، وجود أسانسير، الونش، التغليف).
+      </p>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="space-y-4">
+      <h2 class="text-xl md:text-2xl font-extrabold">آراء العملاء</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <figure class="bg-white border border-slate-200 rounded-2xl p-5">
+          <blockquote class="text-slate-700 text-sm leading-relaxed">
+            “مواعيدهم مظبوطة والتغليف محترم، مفيش خدش واحد.”
+          </blockquote>
+          <figcaption class="mt-4 text-sm text-slate-500">— أحمد، مدينة نصر</figcaption>
+        </figure>
+
+        <figure class="bg-white border border-slate-200 rounded-2xl p-5">
+          <blockquote class="text-slate-700 text-sm leading-relaxed">
+            “فك وتركيب غرفة النوم اتعمل بسرعة وباحتراف.”
+          </blockquote>
+          <figcaption class="mt-4 text-sm text-slate-500">— سارة، الشيخ زايد</figcaption>
+        </figure>
+
+        <figure class="bg-white border border-slate-200 rounded-2xl p-5">
+          <blockquote class="text-slate-700 text-sm leading-relaxed">
+            “الونش فرق جدًا… نقلنا في وقت قليل ومن غير تكسير.”
+          </blockquote>
+          <figcaption class="mt-4 text-sm text-slate-500">— كريم، الدقي</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="space-y-4">
+      <h2 class="text-xl md:text-2xl font-extrabold">أسئلة شائعة</h2>
+
+      <div class="space-y-3">
+        <details class="bg-white border border-slate-200 rounded-2xl p-5">
+          <summary class="cursor-pointer font-semibold">هل لازم معاينة قبل النقل؟</summary>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+            الأفضل نعم عشان نحدد حجم العربية، عدد العمال، نوع التغليف، وهل في ونش ولا لأ.
+          </p>
+        </details>
+
+        <details class="bg-white border border-slate-200 rounded-2xl p-5">
+          <summary class="cursor-pointer font-semibold">هل بتعملوا تغليف كامل؟</summary>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+            نعم. بنستخدم خامات مختلفة حسب القطعة: فقاعات، فوم، كرتون، استرتش.
+          </p>
+        </details>
+
+        <details class="bg-white border border-slate-200 rounded-2xl p-5">
+          <summary class="cursor-pointer font-semibold">أمتى أحتاج ونش؟</summary>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+            لو الدور عالي، أو السلم ضيق، أو في قطع كبيرة صعب تعدّي (دولاب كبير/كنبة).
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="bg-white border border-slate-200 rounded-2xl p-6 md:p-8">
+      <div class="flex flex-col lg:flex-row gap-8">
+        <div class="flex-1">
+          <h2 class="text-xl md:text-2xl font-extrabold">تواصل بسرعة</h2>
+          <p class="mt-2 text-slate-600">
+            ابعت بياناتك وهنرد عليك. أو اتصل مباشرة.
+          </p>
+
+          <div class="mt-5 grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="text-sm font-semibold">الاسم</label>
+              <input
+                class="mt-2 w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-200"
+                placeholder="اسمك" />
+            </div>
+            <div>
+              <label class="text-sm font-semibold">رقم الموبايل</label>
+              <input
+                class="mt-2 w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-200"
+                placeholder="01xxxxxxxxx" />
+            </div>
+            <div class="sm:col-span-2">
+              <label class="text-sm font-semibold">العنوان</label>
+              <input
+                class="mt-2 w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-200"
+                placeholder="المكان + المنطقة" />
+            </div>
+            <div class="sm:col-span-2">
+              <label class="text-sm font-semibold">تفاصيل</label>
+              <textarea rows="4"
+                class="mt-2 w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-200"
+                placeholder="عدد الغرف، الدور، هل في أسانسير؟"></textarea>
+            </div>
+          </div>
+
+          <div class="mt-4 flex flex-col sm:flex-row gap-3">
+            <button class="rounded-xl bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700">
+              إرسال
+            </button>
+            <a href="tel:+201000000000"
+              class="rounded-xl border border-slate-300 px-6 py-3 font-semibold hover:bg-slate-100 text-center">
+              اتصال الآن
+            </a>
+          </div>
+        </div>
+
+        <aside class="w-full lg:w-[340px]">
+          <div class="rounded-2xl bg-slate-50 border border-slate-200 p-5 space-y-3">
+            <div class="font-bold">بيانات الشركة</div>
+            <div class="text-sm text-slate-700">
+              <div class="flex items-center justify-between">
+                <span class="text-slate-500">الهاتف</span>
+                <a class="font-semibold hover:underline" href="tel:+201000000000">01000000000</a>
+              </div>
+              <div class="mt-2 flex items-center justify-between">
+                <span class="text-slate-500">واتساب</span>
+                <a class="font-semibold hover:underline" href="#">اضغط هنا</a>
+              </div>
+              <div class="mt-2 flex items-center justify-between">
+                <span class="text-slate-500">المواعيد</span>
+                <span class="font-semibold">9 ص - 10 م</span>
+              </div>
+              <div class="mt-2 flex items-center justify-between">
+                <span class="text-slate-500">المناطق</span>
+                <span class="font-semibold">القاهرة / الجيزة</span>
+              </div>
+            </div>
+
+            <div class="pt-3 border-t border-slate-200 text-sm text-slate-600">
+              <iframe class="w-full"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13825.068136418367!2d30.9532117!3d29.971754850000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1769911081782!5m2!1sar!2seg"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 bg-white">
+    <div
+      class="mx-auto max-w-6xl px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-slate-600">
+      <div>© <span id="year"></span> شركة نقل عفش — كل الحقوق محفوظة</div>
+      <div class="flex gap-4">
+        <a class="hover:text-blue-600" href="#">سياسة الخصوصية</a>
+        <a class="hover:text-blue-600" href="#">الشروط</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
